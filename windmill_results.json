@@ -1,0 +1,615 @@
+{
+ "checks": {
+  "printed_part_ok/Shim_nominal": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Shim_nominal": {
+   "value": [
+    2.4,
+    16.0,
+    19.0
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Body_merged": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Body_merged": {
+   "value": [
+    96.0,
+    96.0,
+    104.0
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Cap": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Cap": {
+   "value": [
+    46.3,
+    95.7,
+    109.1
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Lid": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Lid": {
+   "value": [
+    2.0,
+    95.4,
+    95.4
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Hub": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Hub": {
+   "value": [
+    10.8,
+    14.0,
+    14.0
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Pinion_12T": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Pinion_12T": {
+   "value": [
+    5.0,
+    14.6,
+    14.6
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Wheel_36T": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Wheel_36T": {
+   "value": [
+    9.0,
+    37.3,
+    37.3
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Sails_lattice": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Sails_lattice": {
+   "value": [
+    3.0,
+    90.5,
+    90.5
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Sails_solid": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Sails_solid": {
+   "value": [
+    3.0,
+    90.5,
+    90.5
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "printed_part_ok/Spinner": {
+   "value": [
+    true,
+    1
+   ],
+   "limit": [
+    true,
+    1
+   ],
+   "pass": true
+  },
+  "fits_printer/Spinner": {
+   "value": [
+    12.9,
+    13.0,
+    22.5
+   ],
+   "limit": [
+    256.0,
+    256.0,
+    256.0
+   ],
+   "pass": true
+  },
+  "envelope_running_with_sail_sweep_mm": {
+   "value": [
+    97.1,
+    97.0,
+    150.5
+   ],
+   "limit": [
+    101.6,
+    101.6,
+    152.4
+   ],
+   "pass": true
+  },
+  "envelope_centred_x_y_mm": {
+   "value": [
+    -48.0,
+    49.1,
+    -48.5,
+    48.5
+   ],
+   "limit": [
+    -50.8,
+    50.8
+   ],
+   "pass": true
+  },
+  "no_interference/motor_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/motor_shaft_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/motor_vs_cap_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/pinion_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/wheel_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/wheel_vs_cap_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/pinion_vs_cap_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/wheel_vs_motor_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/sail_sweep_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/sail_sweep_vs_cap_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/hub_vs_cap_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/battery_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/battery_vs_lid_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/switch_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/windshaft_vs_body_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "no_interference/windshaft_vs_cap_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "running_clearance/wheel_to_body_mm": {
+   "value": 1.5,
+   "limit": 1.0,
+   "pass": true
+  },
+  "running_clearance/wheel_to_cap_mm": {
+   "value": 1.2,
+   "limit": 1.0,
+   "pass": true
+  },
+  "running_clearance/pinion_to_body_mm": {
+   "value": 1.2,
+   "limit": 1.0,
+   "pass": true
+  },
+  "running_clearance/sails_to_body_mm": {
+   "value": 6.25,
+   "limit": 1.0,
+   "pass": true
+  },
+  "running_clearance/sails_to_cap_mm": {
+   "value": 9.14,
+   "limit": 1.0,
+   "pass": true
+  },
+  "running_clearance/hub_to_cap_mm": {
+   "value": 1.34,
+   "limit": 1.0,
+   "pass": true
+  },
+  "hub_magnet_pocket_clear_of_rod_mm": {
+   "value": 0.4,
+   "limit": ">= 0.3",
+   "pass": true
+  },
+  "switch_reachable_from_battery_bay_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "spinner_clamps_sail_cross_overlap_mm": {
+   "value": 2.35,
+   "limit": ">= 1.5 (spinner rim over the cross round the key)",
+   "pass": true
+  },
+  "gear_centre_distance_mm": {
+   "value": 24.0,
+   "limit": 24.0,
+   "pass": true
+  },
+  "pinion_profile_shift_vs_undercut_min": {
+   "value": 0.32,
+   "limit": 0.294,
+   "pass": true
+  },
+  "pinion_tip_thickness_mm": {
+   "value": 0.27,
+   "limit": ">= 0.25 m (0.25)",
+   "pass": true
+  },
+  "contact_ratio": {
+   "value": 1.486,
+   "limit": ">= 1.2",
+   "pass": true
+  },
+  "gear_mesh_overlap_through_one_pitch_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "gear_mesh_min_gap_mm (backlash present, teeth still engaged)": {
+   "value": [
+    0.118,
+    0.119
+   ],
+   "limit": [
+    0.02,
+    0.5
+   ],
+   "pass": true
+  },
+  "assembly_motor_with_pinion_drops_in_from_top_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "assembly_wheel_drops_in_from_top_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "assembly_rod_slides_in_from_front_mm3": {
+   "value": 0.0,
+   "limit": 0.0,
+   "pass": true
+  },
+  "motor_height_adjust_range_mm (shim set vs nominal)": {
+   "value": [
+    -1.0,
+    2.0
+   ],
+   "limit": "covers -1 to +2 (drawing uncertainty)",
+   "pass": true
+  },
+  "torque_margin_at_windshaft_3V": {
+   "value": 10.9,
+   "limit": ">= 3 (quarter-stall available / estimated need)",
+   "pass": true
+  },
+  "body_overhang_inside_tower_mm2 (supports there cannot be removed)": {
+   "value": 0.0,
+   "limit": "<= 30 (small holes and bridges only)",
+   "pass": true
+  },
+  "sail_rpm_at_3V": {
+   "value": [
+    30.0,
+    40.0
+   ],
+   "limit": "15 to 60 (assumed: reads as a windmill, not a fan)",
+   "pass": true
+  }
+ },
+ "parts": {
+  "Shim_nominal": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    16.0,
+    19.0,
+    2.4
+   ],
+   "volume_cm3": 0.73
+  },
+  "Body_merged": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    96.0,
+    96.0,
+    104.0
+   ],
+   "volume_cm3": 184.8
+  },
+  "Cap": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    95.7,
+    109.1,
+    46.3
+   ],
+   "volume_cm3": 16.16
+  },
+  "Lid": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    95.4,
+    95.4,
+    2.0
+   ],
+   "volume_cm3": 14.99
+  },
+  "Hub": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    10.8,
+    14.0,
+    14.0
+   ],
+   "volume_cm3": 1.27
+  },
+  "Pinion_12T": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    5.0,
+    14.6,
+    14.6
+   ],
+   "volume_cm3": 0.49
+  },
+  "Wheel_36T": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    9.0,
+    37.3,
+    37.3
+   ],
+   "volume_cm3": 4.98
+  },
+  "Sails_lattice": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    3.0,
+    90.5,
+    90.5
+   ],
+   "volume_cm3": 4.21
+  },
+  "Sails_solid": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    3.0,
+    90.5,
+    90.5
+   ],
+   "volume_cm3": 5.58
+  },
+  "Spinner": {
+   "valid": true,
+   "solids": 1,
+   "bbox_mm": [
+    12.9,
+    22.5,
+    13.0
+   ],
+   "volume_cm3": 0.31
+  }
+ },
+ "notes": [
+  "Cap prints brim-down with tree supports inside the dome; they come out through the open bottom.",
+  "Merge Surfaces: plinth, tower, stage and rail, knee braces, curb ring, both windshaft bearing posts, motor cradle and seat are one printed body (Body_merged).",
+  "Divide Continuous Surface: the cap lifts off on 4 magnet pairs (asymmetric pattern keys its orientation); the sail cross pulls off the hub key (1 magnet) and swaps between the lattice and solid sets; the lid opens for the batteries.",
+  "TT motor shaft position along the gearbox (25.4 mm from the can end) is read from the Adafruit drawing: measure before printing the cradle.",
+  "2 x AA holder size 58 x 32 x 16 mm is assumed: measure yours."
+ ],
+ "overhangs_mm2": {
+  "Body_merged (upright)": {
+   "total": 5297.4,
+   "inside_tower": 0.0
+  },
+  "Cap (as installed, brim on the bed)": {
+   "total": 1554.2
+  }
+ },
+ "assembly_order": [
+  "Lid off: battery holder in, wires up through the floor hole, lid on (4 x M2 x 8)",
+  "Cap off. Measure the TT motor: shaft centre to can end. Shim = 24.4 - that value + 2.4 mm nominal; drop the shim into the channel",
+  "Push the 12T pinion onto the front shaft (double-D), then lower motor + pinion straight down into the channel",
+  "Lower the 36T wheel straight down through the front slot in the curb",
+  "File a 0.5 mm flat on the 3 mm rod; slide it in from the front through the front post, the wheel (D bore) and the rear post",
+  "Hub on the rod (D bore), spinner magnet, sail cross onto the hub key; magnets into the curb and cap, cap on"
+ ],
+ "drive": {
+  "centre_distance_mm": 24.0,
+  "ratio": 3.0,
+  "motor_rpm_3V": [
+   90,
+   120
+  ],
+  "sail_rpm_3V": [
+   30.0,
+   40.0
+  ],
+  "sail_tip_speed_m_s": [
+   0.15,
+   0.2
+  ]
+ },
+ "all_pass": true
+}
